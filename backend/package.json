@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "typeorm": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },"scripts": {
+  "_comment": "額外補充npm run dev 用 nodemon 開發（存檔自動重啟），npm start 用 node 正式啟動",
+  "dev": "nodemon ./bin/www.js",
+  "start": "node ./bin/www.js"
+}
+}
